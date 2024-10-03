@@ -2,4 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #0A0A10;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+    min-height: 100vh;
+    padding: 57px 24px;
+    position: relative;
+    gap: 16px;
+}
+
+.blur {
+    width: 345px;
+    height: 278px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.25;
+    filter: blur(48px)
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.81px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+    color: #FFFFFF99;
+    margin-bottom: 3px;
+
+}
+
+input {
+    width: 320px;
+    height: 45px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF99;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.23999999463558197px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+
 }
