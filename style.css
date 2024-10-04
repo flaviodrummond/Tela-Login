@@ -121,7 +121,6 @@ i {
     font-size: 17px;
     font-weight: 900;
     line-height: 2.5px;
-    text-align: center;
     color: #FFFFFF;
     outline: none;
     border: none;
@@ -147,7 +146,6 @@ p {
     line-height: 16.41px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 20px;
 }
 
 a {
